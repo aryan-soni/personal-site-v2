@@ -1,20 +1,61 @@
-.navbar {
+body {
+  background-image: url("imgs/cityBG.jpeg");
+  background-size: auto;
+  color: white;
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+  top: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
   background: none;
   text-align: right;
+  overflow: hidden;
+  border-bottom: 1px solid white;
+}
+
+.navStyle {
+  color: white;
+  float: left;
+  text-align: center;
+  padding: 22px 24px;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.navStyle :hover {
+  font-size: 17px;
+  color: lightcyan;
+  cursor: pointer;
+}
+
+#intro {
+  min-height: 600px;
+  display: flex;
+  position: relative;
 }
 
 .jumbotron {
   text-align: center;
   background: none;
+  margin: auto;
+  text-align: center;
 }
 
-body {
-  background-image: url("imgs/cityBG.jpeg");
-  background-size: cover;
-  color: white;
+#aboutNav {
+  font-weight: normal;
 }
-
-.aboutStyle {
+.gradient {
   background: #00d2ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -26,11 +67,23 @@ body {
     #3a7bd5,
     #00d2ff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-radius: 12px;
+}
+
+.containerStyle {
+  border-radius: 15px;
   display: flex;
 }
 
 .aboutLink {
   margin: auto;
   text-align: center;
+}
+
+.iconLink {
+  color: white;
+}
+
+img {
+  margin: 15px;
+  height: 15vw;
 }
