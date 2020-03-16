@@ -1,7 +1,6 @@
 import React from "react";
 import ReactTypingEffect from "react-typing-effect";
 import { Link } from "react-scroll";
-import About from "./about";
 
 function Intro() {
   return (
@@ -18,10 +17,10 @@ function Intro() {
             to={"about"}
             spy={true}
             smooth={true}
-            offset={500}
+            offset={0}
             duration={1000}
           >
-            <a class='btn btn-primary btn-lg' href='#' role='button'>
+            <a class='btn btn-primary btn-lg' href='/#' role='button'>
               About Me
             </a>
           </Link>

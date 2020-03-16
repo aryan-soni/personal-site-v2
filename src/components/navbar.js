@@ -1,17 +1,15 @@
 import React from "react";
 import { Link } from "react-scroll";
-import About from "./about";
 
 function Navbar() {
   return (
     <div className='Navbar'>
-      <nav>
+      <nav class='nav'>
         <Link
           activeClass='active'
           to={"about"}
-          spy={true}
           smooth={true}
-          offset={500}
+          offset={0}
           duration={1000}
           class='navStyle'
         >
@@ -20,9 +18,8 @@ function Navbar() {
         <Link
           activeClass='active'
           to={"skills"}
-          spy={true}
           smooth={true}
-          offset={500}
+          offset={0}
           duration={1000}
           class='navStyle'
         >
@@ -33,7 +30,7 @@ function Navbar() {
           to={"contact"}
           spy={true}
           smooth={true}
-          offset={500}
+          offset={0}
           duration={1000}
           class='navStyle'
         >
