@@ -1,6 +1,6 @@
 # personal-site
 
-This is my personal website, built using React.js and Bootstrap.
+Built using React.js and Bootstrap.
 
 ## Live URL
 
