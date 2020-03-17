@@ -1,5 +1,11 @@
 import React from "react";
+{
+  /* typing effect */
+}
 import ReactTypingEffect from "react-typing-effect";
+{
+  /* smooth scrolling */
+}
 import { Link } from "react-scroll";
 
 function Intro() {
@@ -9,9 +15,11 @@ function Intro() {
         <h5 class='display-4 '>Hi, my name is</h5>
 
         <h3 class='display-4 font-weight-bold' id='typeEffect'>
+          {/* typing effect */}
           <ReactTypingEffect text='Aryan Soni' />
         </h3>
         <p class='lead mt-5'>
+          {/* links to about */}
           <Link
             activeClass='active'
             to={"about"}

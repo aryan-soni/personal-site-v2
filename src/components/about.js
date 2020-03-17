@@ -1,14 +1,24 @@
 import React from "react";
+{
+  /* icons */
+}
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
+{
+  /* scroll animation */
+}
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
+{
+  /* resume */
+}
 import resume from "../resume.pdf";
 
 function About() {
   return (
     <div className='About' id='about'>
+      {/* add scroll animation */}
       <ScrollAnimation animateIn='zoomIn' duration='3' animateOnce='false'>
         <div class='container containerStyle gradient'>
           <div class='row'>

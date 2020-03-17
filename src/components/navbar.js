@@ -1,10 +1,14 @@
 import React from "react";
+{
+  /* smooth scrolling */
+}
 import { Link } from "react-scroll";
 
 function Navbar() {
   return (
     <div className='Navbar'>
       <nav class='nav'>
+        {/* links to about */}
         <Link
           activeClass='active'
           to={"about"}
@@ -17,6 +21,7 @@ function Navbar() {
             About Me
           </a>
         </Link>
+        {/* links to skills */}
         <Link
           activeClass='active'
           to={"skills"}
@@ -29,6 +34,7 @@ function Navbar() {
             Skills
           </a>
         </Link>
+        {/* links to contact */}
         <Link
           activeClass='active'
           to={"contact"}

@@ -9,6 +9,7 @@ body {
   top: 0;
 }
 
+/* needed for links on navbar */
 a,
 a:hover,
 a:focus,
@@ -17,6 +18,7 @@ a:active {
   color: inherit;
 }
 
+/* style navbar; add thin border on bottom */
 nav {
   background: none;
   text-align: right;
@@ -33,8 +35,9 @@ nav {
   font-weight: bolder;
 }
 
+/* chnage colour and font size when hovering over navbar to indicate that text links to element */
 .navStyle :hover {
-  font-size: 17px;
+  font-size: 19px;
   color: lightcyan;
   cursor: pointer;
 }
@@ -55,6 +58,8 @@ nav {
 #aboutNav {
   font-weight: normal;
 }
+
+/* gradient */
 .gradient {
   background: #00d2ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -69,6 +74,7 @@ nav {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/* slightly round edges for containers */
 .containerStyle {
   border-radius: 15px;
   display: flex;
@@ -100,6 +106,8 @@ img {
   height: 10vw;
 }
 
+/* text appears when hovering over imgs in skills */
+
 .overlay {
   position: absolute;
   top: 0;
@@ -130,6 +138,8 @@ img {
   float: left;
 }
 
+/* ----------------------------- */
+
 #lastImg {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -138,6 +148,8 @@ img {
 #contactContainer {
   border-radius: 15px;
 }
+
+/* special effect when hovering over send button in contact form */
 
 #hover:hover {
   color: white;
@@ -177,6 +189,8 @@ img {
   opacity: 1;
   right: 0;
 }
+
+/* ----------------------------- */
 
 #footerContainer {
   text-align: center;

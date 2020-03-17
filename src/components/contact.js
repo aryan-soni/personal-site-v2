@@ -1,15 +1,23 @@
 import React from "react";
+{
+  /* scroll animation */
+}
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
+{
+  /* icons */
+}
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   return (
     <div className='Contact' id='contact'>
+      {/* scroll animation */}
       <ScrollAnimation animateIn='zoomIn' duration='3' animateOnce='false'>
         <div class='container gradient mt-5 py-3' id='contactContainer'>
           <h4 class='font-weight-bold'>Contact Me</h4>
+          {/* formspree for form; styling w/ bootstrap */}
           <form
             id='fs-frm'
             name='simple-contact-form'

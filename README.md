@@ -1,3 +1,20 @@
+# personal-site
+
+This is my personal website, built using React.js and Bootstrap.
+
+## Live URL
+
+https://www.aryansoni.com
+
+## Technologies Used
+
+- React.js
+- Bootstrap
+- Git (for version control)
+- FontAwesome
+- formspree.io API
+- Netlify
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

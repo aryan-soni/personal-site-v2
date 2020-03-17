@@ -1,6 +1,12 @@
 import React from "react";
+{
+  /* animation on scrolling */
+}
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
+{
+  /* import imgs */
+}
 import python from "../imgs/python.png";
 import java from "../imgs/java.png";
 import js from "../imgs/js.png";
@@ -14,6 +20,7 @@ import gsuite from "../imgs/gsuite.png";
 function Skills() {
   return (
     <div className='Skills' id='skills'>
+      {/* scrolling animation */}
       <ScrollAnimation animateIn='zoomIn' duration='3' animateOnce='false'>
         <div class='container gradient mt-5' id='firstImgContainer'>
           <h4 class='mt-4 ml-3'>Skills</h4>

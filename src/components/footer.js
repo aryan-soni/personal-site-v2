@@ -1,10 +1,14 @@
 import React from "react";
+{
+  /* smooth scrolling */
+}
 import { Link } from "react-scroll";
 
 function Footer() {
   return (
     <div className='Footer' id='footer'>
       <div class='container my-3' id='footerContainer'>
+        {/* links to top */}
         <Link
           activeClass='active'
           to={"intro"}
