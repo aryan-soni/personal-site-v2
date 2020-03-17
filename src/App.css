@@ -134,3 +134,50 @@ img {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
+#contactContainer {
+  border-radius: 15px;
+}
+
+#hover:hover {
+  color: white;
+}
+
+#hover:active {
+  background-color: #d4af37;
+  -webkit-box-shadow: 0 5px #666;
+  box-shadow: 0 5px #666;
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+}
+
+#hover span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#hover span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#hover:hover span {
+  padding-right: 25px;
+}
+
+#hover:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#footerContainer {
+  text-align: center;
+}

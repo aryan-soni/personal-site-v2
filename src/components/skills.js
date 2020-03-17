@@ -13,7 +13,7 @@ import gsuite from "../imgs/gsuite.png";
 
 function Skills() {
   return (
-    <div classNsame='Skills' id='skills'>
+    <div className='Skills' id='skills'>
       <ScrollAnimation animateIn='zoomIn' duration='3' animateOnce='false'>
         <div class='container gradient mt-5' id='firstImgContainer'>
           <h4 class='mt-4 ml-3'>Skills</h4>
