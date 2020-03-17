@@ -1,11 +1,7 @@
 import React from "react";
-{
-  /* typing effect */
-}
+
 import ReactTypingEffect from "react-typing-effect";
-{
-  /* smooth scrolling */
-}
+
 import { Link } from "react-scroll";
 
 function Intro() {

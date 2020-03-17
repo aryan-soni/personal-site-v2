@@ -1,7 +1,5 @@
 import React from "react";
-{
-  /* smooth scrolling */
-}
+
 import { Link } from "react-scroll";
 
 function Navbar() {

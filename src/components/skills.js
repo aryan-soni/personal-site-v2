@@ -1,12 +1,5 @@
 import React from "react";
-{
-  /* animation on scrolling */
-}
-import "animate.css/animate.min.css";
-import ScrollAnimation from "react-animate-on-scroll";
-{
-  /* import imgs */
-}
+
 import python from "../imgs/python.png";
 import java from "../imgs/java.png";
 import js from "../imgs/js.png";
@@ -16,6 +9,9 @@ import css from "../imgs/css.png";
 import bootstrap from "../imgs/bootstrap.png";
 import office from "../imgs/office.png";
 import gsuite from "../imgs/gsuite.png";
+
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 
 function Skills() {
   return (

@@ -1,14 +1,11 @@
 import React from "react";
-{
-  /* scroll animation */
-}
-import "animate.css/animate.min.css";
+
 import ScrollAnimation from "react-animate-on-scroll";
-{
-  /* icons */
-}
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+
+import "animate.css/animate.min.css";
 
 function Contact() {
   return (
