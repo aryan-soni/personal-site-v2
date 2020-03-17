@@ -13,7 +13,9 @@ function Navbar() {
           duration={1000}
           class='navStyle'
         >
-          <a href='/'>About Me</a>
+          <a href='/' class='font-weight-light'>
+            About Me
+          </a>
         </Link>
         <Link
           activeClass='active'
@@ -23,7 +25,9 @@ function Navbar() {
           duration={1000}
           class='navStyle'
         >
-          <a href='/'>Skills</a>
+          <a href='/' class='font-weight-light'>
+            Skills
+          </a>
         </Link>
         <Link
           activeClass='active'
@@ -34,7 +38,9 @@ function Navbar() {
           duration={1000}
           class='navStyle'
         >
-          <a href='/'>Contact</a>
+          <a href='/' class='font-weight-light'>
+            Contact
+          </a>
         </Link>
       </nav>
     </div>

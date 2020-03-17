@@ -4,6 +4,7 @@ import { faFile } from "@fortawesome/free-solid-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
+import resume from "../resume.pdf";
 
 function About() {
   return (
@@ -30,7 +31,7 @@ function About() {
                 type='button'
                 class='btn btn-primary px-5 py-2 m-3 font-weight-bold'
               >
-                <a href='./resume2.pdf' class='iconLink' download>
+                <a href={resume} class='iconLink' download='AryanSoni_Resume'>
                   <FontAwesomeIcon icon={faFile} /> Resume
                 </a>
               </button>

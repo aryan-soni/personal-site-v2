@@ -10,10 +10,10 @@ function Footer() {
           to={"intro"}
           spy={true}
           smooth={true}
-          offset={0}
+          offset={-70}
           duration={1000}
         >
-          <a class='btn btn-primary btn-sm' href='/#' role='button'>
+          <a class='btn btn-primary btn-sm' href='/' role='button'>
             Back to Top
           </a>
         </Link>
