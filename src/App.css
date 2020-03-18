@@ -32,6 +32,7 @@ nav {
   text-align: center;
   padding: 22px 24px;
   font-size: 17px;
+  font-family: "Roboto", sans-serif;
   font-weight: bolder;
 }
 
@@ -78,6 +79,9 @@ nav {
 .containerStyle {
   border-radius: 15px;
   display: flex;
+}
+#aboutText {
+  font-family: "Catamaran", sans-serif;
 }
 
 .aboutLink {
