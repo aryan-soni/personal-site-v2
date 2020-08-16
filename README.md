@@ -1,4 +1,4 @@
-# personal-site
+# personal-site-v2
 
 Built using React.js and Bootstrap.
 
