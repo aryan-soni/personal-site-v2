@@ -3,8 +3,7 @@
 Built using React.js and Bootstrap.
 
 ## Live URL
-
-https://www.aryansoni.com
+https://aryansoniv2.netlify.app/
 
 ## Technologies Used
 
